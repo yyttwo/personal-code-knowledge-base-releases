@@ -63,4 +63,4 @@ v0.1 不申请摄像头、麦克风、位置、联系人、日历或屏幕录制
 
 ## 发布范围
 
-v0.1 面向 Apple Silicon Mac 和 macOS 11.0 及以上版本，采用个人本地安装方式。目前不提供公开下载、Mac App Store 发布、自动更新或 Intel Mac 兼容保证。
+v0.1 面向 Apple Silicon Mac 和 macOS 11.0 及以上版本，采用个人本地安装方式。正式下载由本仓库的 GitHub Release 页面提供；目前不提供 Mac App Store 版本、自动更新或 Intel Mac 兼容保证。
