@@ -1,0 +1,12 @@
+App Name: 个人代码资产库
+Version: 0.1.0
+Build: 1
+Architecture: arm64
+Minimum macOS: 11.0
+Bundle ID: local.personal-code-knowledge-base.desktop
+ZIP Filename: 个人代码资产库-v0.1.0-macos-arm64.zip
+ZIP SHA256: 16c742ea1bef8d5adf3b35f3c4a8dd4feceeac2a8658875072e64dc20fa705ca
+Developer ID: No
+Notarized: No
+Network Required: No
+Telemetry: None
