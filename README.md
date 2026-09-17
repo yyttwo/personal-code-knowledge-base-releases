@@ -2,9 +2,9 @@
 
 一个支持本地大模型接入的 Local-first macOS 个人代码资产管理与学习工具，用于收集、整理、搜索、理解和复用自己的代码。
 
-## [⬇️ 下载 v0.2.1](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.1)
+## [⬇️ 下载 v0.2.2](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.2)
 
-**当前版本：** v0.2.1 · **系统要求：** Apple Silicon Mac / macOS 11.0+
+**当前版本：** v0.2.2 · **系统要求：** Apple Silicon Mac / macOS 11.0+
 
 <p align="center">
   <img src="assets/app-icon.png" alt="个人代码资产库图标" width="160">
@@ -21,6 +21,7 @@
 - 通过学习中心整理知识完整度、验证历史、复习时间、状态和复用证据。
 - 通过本机 Ollama 接入本地大模型，辅助理解代码、完善知识内容，并使用本地向量模型进行智能搜索。
 - 使用可恢复的废纸篓，并在永久删除前再次明确确认。
+- 从 App 底部直接进入 GitHub 结构化问题反馈表单。
 - 创建版本化本地备份，恢复前校验备份并创建恢复副本。
 - 正式数据使用普通文件保存；SQLite 仅作为可删除、可重建的搜索索引。
 
@@ -50,6 +51,12 @@
 - **智能搜索与相关代码：** 通过独立的本机 Embedding 模型建立语义索引，与普通关键词结果组合排序。
 
 你可以在这里测试连接、检测和选择本机模型、更新语义索引，并查看当前分类与标签。两项能力仅接受本机回环地址，不连接云端模型，也不会自动下载模型。关闭它们不会影响其他核心功能。
+
+## 问题反馈
+
+侧边栏最下方提供“问题反馈”入口。反馈页会提示准备 App 版本、macOS 版本、Mac 芯片、重现步骤以及期望和实际结果；点击按钮后，会在默认浏览器中打开本仓库的结构化 GitHub Issues 表单。
+
+提交前请移除 API Key、Token、密码、私有代码、真实代码库路径和其他敏感信息。App 只会打开固定的官方反馈地址，不会上传代码库内容。
 
 ## 本地大模型接入
 
@@ -85,15 +92,15 @@ App 支持通过 Ollama 使用完全运行在本机的大模型，不要求把�
 
 ## 下载与安装
 
-从 [v0.2.1 Release](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.1) 下载：
+从 [v0.2.2 Release](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.2) 下载：
 
-- `personal-code-knowledge-base-v0.2.1-macos-arm64.zip`
+- `personal-code-knowledge-base-v0.2.2-macos-arm64.zip`
 - `SHA256SUMS.txt`
 
 ZIP SHA-256：
 
 ```text
-2aa25bb799fdb99631531cc966e18fcaffda03463893f9cbad932c1a51497a36
+f68488612d177c38528764c2d72d33872b17d70b1f5f3ffbdcfda6f22e47ab3b
 ```
 
 请在安装前核对完整性。完整安装步骤见 [INSTALL_MACOS.md](INSTALL_MACOS.md)。
