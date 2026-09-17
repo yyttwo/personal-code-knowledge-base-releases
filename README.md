@@ -87,7 +87,7 @@ App 支持通过 Ollama 使用完全运行在本机的大模型，不要求把�
 
 从 [v0.2.1 Release](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.1) 下载：
 
-- `个人代码资产库-0.2.1-arm64.zip`
+- `personal-code-knowledge-base-v0.2.1-macos-arm64.zip`
 - `SHA256SUMS.txt`
 
 ZIP SHA-256：
