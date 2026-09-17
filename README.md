@@ -78,6 +78,10 @@ App 支持通过 Ollama 使用完全运行在本机的大模型，不要求把�
 | --- | --- |
 | ![Project 管理](assets/screenshots/04-project.png) | ![本地备份与恢复](assets/screenshots/06-backup.png) |
 
+| 学习中心 | 设置与本地大模型 |
+| --- | --- |
+| ![学习中心](assets/screenshots/07-learning-center.png) | ![设置与本地大模型](assets/screenshots/08-settings-local-ai.png) |
+
 所有截图均使用完全虚构的本地演示数据制作。
 
 ## 隐私与数据归属
