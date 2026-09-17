@@ -68,6 +68,27 @@ App 支持通过 Ollama 使用完全运行在本机的大模型，不要求把�
 - 连接范围限制为用户明确配置的本机回环地址，例如 `http://127.0.0.1:11434`。
 - App 不会自动下载或管理模型；Ollama 及模型的安装、启动和删除仍由用户掌控。
 
+### 推荐模型
+
+生成模型用于解释代码、补充知识说明和生成学习建议。建议根据 Mac 的统一内存选择：
+
+| Mac 统一内存 | 推荐生成模型 | Ollama 安装命令 | 适合情况 |
+| --- | --- | --- | --- |
+| 8 GB | `qwen2.5-coder:3b` | `ollama pull qwen2.5-coder:3b` | 体积较小，适合轻量使用 |
+| 16 GB | `qwen2.5-coder:7b` | `ollama pull qwen2.5-coder:7b` | 推荐的均衡选择 |
+| 24 GB 及以上 | `qwen2.5-coder:14b` | `ollama pull qwen2.5-coder:14b` | 更强的代码理解能力，但速度和内存开销更高 |
+
+智能搜索需要单独安装 Embedding 模型：
+
+| 推荐级别 | 推荐向量模型 | Ollama 安装命令 | 说明 |
+| --- | --- | --- | --- |
+| 首选 | `embeddinggemma` | `ollama pull embeddinggemma` | 小型本地向量模型，支持多语言、代码和技术文档；需要 Ollama 0.11.10 或更高版本 |
+| 轻量备选 | `nomic-embed-text` | `ollama pull nomic-embed-text` | 体积较小，只用于生成向量，适合搜索与相似度匹配 |
+
+安装完成后，在 App 的“设置”中点击“重新检测模型”，分别选择生成模型和向量模型，再测试连接。模型所需内存会受上下文长度和同时运行的其他程序影响；上表是保守的入门建议，不是硬性要求。更换向量模型后，需要在设置中重新构建语义索引。
+
+模型详情：[Qwen2.5-Coder](https://ollama.com/library/qwen2.5-coder) · [EmbeddingGemma](https://ollama.com/library/embeddinggemma) · [Nomic Embed Text](https://ollama.com/library/nomic-embed-text)
+
 ## 界面预览
 
 | 代码资产详情 | 全文搜索 |
