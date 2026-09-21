@@ -1,1 +1,1 @@
-16c742ea1bef8d5adf3b35f3c4a8dd4feceeac2a8658875072e64dc20fa705ca  个人代码资产库-v0.1.0-macos-arm64.zip
+6f072ac98ca90f226e8a57689a9a8d6d3f5c13a1654a1c161fe4123d44d7a47a  personal-code-knowledge-base-v0.3.0-macos-arm64.zip
