@@ -12,7 +12,9 @@ PCKB is under active development. This repository is the public binary release r
 
 ## Download for macOS
 
-Download PCKB 0.4.0 Public Preview from the [v0.4.0 release](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0).
+**Recommended for new users:** [PCKB 0.4.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0).
+
+Download the macOS arm64 ZIP from that release.
 
 System requirements: Apple Silicon Mac (arm64), macOS 11.0 or later.
 
@@ -100,6 +102,17 @@ PCKB is distributed as proprietary freeware under the [PCKB EULA](legal/PCKB-EUL
 - No cloud sync, automatic updates, folder batch import, Git/GitHub sync, VS Code extension, or code execution.
 - Ollama models must be installed and managed separately. DeepSeek and Qwen require the user's own API key, network access, and service quota.
 - This is an active-development Public Preview, not a stable or feature-complete release.
+
+## Previous Releases
+
+PCKB follows an iterative preview release model. Older versions remain available for rollback and historical reference.
+
+- [v0.3.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.3.0) — AI Multi-Provider release
+- [v0.2.2](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.2) — Feedback workflow update
+- [v0.2.1](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.1) — Previous public release
+- [v0.1.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.1.0) — Initial public release
+
+For new installations, use [PCKB 0.4.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0) unless you specifically need an older version.
 
 ## License
 

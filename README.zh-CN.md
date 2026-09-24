@@ -12,7 +12,9 @@ PCKB 仍在持续开发中。本仓库是公开二进制发布仓库，不包含
 
 ## 下载 macOS 版
 
-可从 [v0.4.0 Release](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0) 下载 PCKB 0.4.0 Public Preview。
+**新用户推荐下载：[PCKB 0.4.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0)。**
+
+请从该 Release 下载 macOS arm64 ZIP。
 
 系统要求：Apple Silicon Mac（arm64），macOS 11.0 或更高版本。
 
@@ -99,6 +101,17 @@ PCKB 以专有免费软件形式分发。下载、安装或使用 PCKB 均受 [P
 - 不提供云同步、自动更新、文件夹批量导入、Git/GitHub 同步、VS Code 扩展或代码执行。
 - Ollama 模型需要用户自行安装和管理；DeepSeek 与 Qwen 需要用户自己的 API Key、网络连接及服务额度。
 - 当前是持续开发中的公开预览版，不是稳定版或功能完整版本。
+
+## 历史版本
+
+PCKB 采用持续迭代的预览版发布方式。旧版本保留用于回退与历史参考。
+
+- [v0.3.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.3.0) — AI 多 Provider 版本
+- [v0.2.2](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.2) — 问题反馈流程更新
+- [v0.2.1](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.1) — 先前公开版本
+- [v0.1.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.1.0) — 首个公开版本
+
+除非需要回退或复现旧版本，新安装请使用 [PCKB 0.4.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0)。
 
 ## 许可
 
