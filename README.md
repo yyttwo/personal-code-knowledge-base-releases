@@ -1,119 +1,118 @@
 # PCKB
 
-Personal Code Knowledge Base
+## 个人代码知识库
 
-Turn the code you write, learn, and collect into a searchable personal knowledge base — with local or cloud AI.
+把你写过、学过和收藏过的代码，变成一个可以搜索、理解和直接提问的个人代码知识库。
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+[简体中文](README.md) | [English](README.en.md)
 
-**Public Preview · macOS Apple Silicon · Active Development · Source code currently private**
+**Public Preview · macOS Apple Silicon · 持续开发中 · 源码目前未开放**
 
-PCKB is under active development. This repository is the public binary release repository; it does not contain the product's core source code.
+## 下载 macOS 版
 
-## Download for macOS
+**新用户推荐下载：[PCKB 0.4.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0)。**
 
-**Recommended for new users:** [PCKB 0.4.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0).
+请从该 Release 下载 macOS arm64 ZIP。
 
-Download the macOS arm64 ZIP from that release.
+系统要求：Apple Silicon Mac（arm64），macOS 11.0 或更高版本。
 
-System requirements: Apple Silicon Mac (arm64), macOS 11.0 or later.
+本 Public Preview 使用 ad hoc 签名，**没有** Apple Developer ID 签名，也**没有**经过 Apple 公证。安装前请核对公开的 SHA-256。首次启动被拦截时，请按 [INSTALL_MACOS.md](INSTALL_MACOS.md) 使用 macOS 正常图形界面操作。
 
-This Public Preview is ad hoc signed. It is **not** signed with an Apple Developer ID and is **not** notarized by Apple. Verify the published SHA-256 before installing. See [INSTALL_MACOS.md](INSTALL_MACOS.md) for the normal macOS UI steps if first launch is blocked.
+![PCKB 代码库与代码详情](screenshots/public/01-main-library.png)
 
-![PCKB Main Library and Code Detail](screenshots/public/01-main-library.png)
+PCKB 仍在持续开发中。本仓库是公开二进制发布仓库，不包含产品核心源代码。
 
-The images below are real PCKB screenshots from a synthetic demo library. Personal local paths are covered with opaque rectangles; no product controls or other content were changed.
+以下均为使用虚构演示代码库拍摄的真实 PCKB 截图。本机私人路径已用不透明色块遮挡，其他产品内容未修改。
 
-## Features
+## 功能
 
-- Personal code library with Projects, tags, favorites, learning status, and validation history
-- Full-text and structured search
-- Optional semantic search and related-code discovery
-- Safe single-file import, recoverable Trash, and local backup/restore
-- AI code actions and AI Chat
-- Custom App backgrounds stored locally
+- 个人代码资产库、Project、标签、常用、学习状态和验证记录
+- 全文搜索、结构化筛选和可选的语义搜索
+- 安全的单文件导入、可恢复废纸篓和本地备份/恢复
+- AI 代码辅助与 AI 对话
+- 仅保存在本机的自定义 App 背景
 
-## Screenshots
+## 产品截图
 
-### Capture and organize
+### 收集与整理
 
-| Create a code asset | Manage a project |
+| 新建代码资产 | 管理项目 |
 | --- | --- |
-| ![New asset editor](screenshots/public/02-new-asset.png) | ![Project management](screenshots/public/03-project-management.png) |
+| ![新建代码资产](screenshots/public/02-new-asset.png) | ![项目管理](screenshots/public/03-project-management.png) |
 
-### Learn and review
+### 学习与复习
 
-| Learning overview | Asset learning cards |
+| 学习中心概览 | 资产学习卡片 |
 | --- | --- |
-| ![Learning Center overview](screenshots/public/04-learning-overview.png) | ![Learning Center asset cards](screenshots/public/05-learning-assets.png) |
+| ![学习中心概览](screenshots/public/04-learning-overview.png) | ![资产学习卡片](screenshots/public/05-learning-assets.png) |
 
-### Configure and safeguard
+### 设置与保护
 
-| AI and semantic search settings | Backup and restore |
+| AI 与智能搜索设置 | 备份与恢复 |
 | --- | --- |
-| ![AI and semantic search settings](screenshots/public/06-ai-settings.png) | ![Local backup and restore settings](screenshots/public/07-backup-restore.png) |
+| ![AI 与智能搜索设置](screenshots/public/06-ai-settings.png) | ![本地备份与恢复](screenshots/public/07-backup-restore.png) |
 
-### Make it yours
+### 自定义外观
 
-![Local App background settings](screenshots/public/08-app-background.png)
+![本机 App 背景设置](screenshots/public/08-app-background.png)
 
-The current demo has no generation model selected, so this preview does not include an AI Chat screenshot. AI Chat remains an available feature.
+当前演示代码库没有选择生成模型，因此本版暂不展示 AI 对话截图；AI 对话功能仍可使用。
 
-## AI options
+## AI 选项
 
-- **Ollama:** optional local Generation and Embedding workflows
-- **DeepSeek API:** optional BYOK Generation and AI Chat
-- **Qwen API:** optional BYOK Generation, AI Chat, and Embedding
-- Generation and Embedding providers are configured independently
-- API credentials are stored using macOS Keychain
-- There is no automatic cloud-provider fallback
+- **Ollama：** 可选的本机生成与向量能力
+- **DeepSeek API：** 可选的自备 Key 生成与 AI 对话
+- **Qwen API：** 可选的自备 Key 生成、AI 对话与向量能力
+- Generation 和 Embedding Provider 相互独立
+- API 凭据通过 macOS 钥匙串保存
+- 不会自动回退到其他云端 Provider
 
-Cloud AI operations send the content required for the user-requested operation to the selected provider. See [PRIVACY.md](PRIVACY.md).
+云端 AI 操作会把完成用户主动请求所需的内容发送给所选 Provider。完整边界见 [PRIVACY.md](PRIVACY.md)。
 
-The App includes the built-in PCKB night-lake background. You can choose a local image and adjust its overlay, blur, and Cover/Contain display mode; the background image remains on the Mac.
+App 提供内置 PCKB 夜湖背景，也支持选择本地图片，调整遮罩、模糊与 Cover/Contain 显示方式。背景图片保存在本机。
 
-## Quick Start
+## 快速开始
 
-1. Download the latest Public Preview ZIP.
-2. Extract the ZIP.
-3. Move `PCKB.app` to Applications.
-4. Open PCKB and create or open a local library.
+1. 下载最新 Public Preview ZIP。
+2. 解压 ZIP。
+3. 将 `PCKB.app` 移到“应用程序”。
+4. 打开 PCKB，创建或打开本地代码库。
 
-## Privacy
+## 隐私
 
-The library is primarily stored in ordinary files at a local folder selected by the user. Ollama supports local AI workflows. DeepSeek and Qwen are optional external BYOK providers. PCKB does not automatically fall back to another cloud provider.
+代码库主要以普通文件保存在用户选择的本机文件夹中。Ollama 支持本机 AI 工作流；DeepSeek 与 Qwen 是可选的外部 BYOK Provider。PCKB 不会自动切换到其他云端 Provider。
 
-## Documentation
+## 文档
 
-- [macOS installation](INSTALL_MACOS.md)
-- [User guide](USER_GUIDE.md)
-- [Privacy](PRIVACY.md)
-- [Security](SECURITY.md)
-- [Source-code status](SOURCE_CODE_NOTICE.md)
+- [macOS 安装说明](INSTALL_MACOS.md)
+- [用户指南](USER_GUIDE.md)
+- [隐私说明](PRIVACY.md)
+- [安全反馈](SECURITY.md)
+- [源代码状态](SOURCE_CODE_NOTICE.md)
 
-## Legal
+## 法律说明
 
-PCKB is distributed as proprietary freeware under the [PCKB EULA](legal/PCKB-EULA.txt). Downloading, installing, or using PCKB is subject to that EULA. Third-party open-source components remain subject to their own licenses. See the [Third-Party Notices](legal/THIRD-PARTY-NOTICES.txt), [component source references](legal/OPEN-SOURCE-COMPONENT-SOURCES.md), and [open-source license bundle](legal/OPEN-SOURCE-LICENSES/).
+PCKB 以专有免费软件形式分发。下载、安装或使用 PCKB 均受 [PCKB EULA](legal/PCKB-EULA.txt) 约束。第三方开源组件继续适用各自许可证；请同时阅读[第三方声明](legal/THIRD-PARTY-NOTICES.txt)、[组件源码出处](legal/OPEN-SOURCE-COMPONENT-SOURCES.md)和[开源许可证文本](legal/OPEN-SOURCE-LICENSES/)。
 
-## Known limitations
+## 已知限制
 
-- Apple Silicon (arm64) only; Intel Mac is not currently supported.
-- No Apple Developer ID signature or Apple notarization.
-- No cloud sync, automatic updates, folder batch import, Git/GitHub sync, VS Code extension, or code execution.
-- Ollama models must be installed and managed separately. DeepSeek and Qwen require the user's own API key, network access, and service quota.
-- This is an active-development Public Preview, not a stable or feature-complete release.
+- 仅支持 Apple Silicon（arm64）；当前不支持 Intel Mac。
+- 没有 Apple Developer ID 签名，也没有 Apple 公证。
+- 不提供云同步、自动更新、文件夹批量导入、Git/GitHub 同步、VS Code 扩展或代码执行。
+- Ollama 模型需要用户自行安装和管理；DeepSeek 与 Qwen 需要用户自己的 API Key、网络连接及服务额度。
+- 当前是持续开发中的公开预览版，不是稳定版或功能完整版本。
 
-## Previous Releases
+## 历史版本
 
-PCKB follows an iterative preview release model. Older versions remain available for rollback and historical reference.
+PCKB 采用持续迭代的预览版发布方式。旧版本保留用于回退与历史参考。
 
-- [v0.3.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.3.0) — AI Multi-Provider release
-- [v0.2.2](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.2) — Feedback workflow update
-- [v0.2.1](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.1) — Previous public release
-- [v0.1.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.1.0) — Initial public release
+- [v0.3.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.3.0) — AI 多 Provider 版本
+- [v0.2.2](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.2) — 问题反馈流程更新
+- [v0.2.1](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.1) — 先前公开版本
+- [v0.1.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.1.0) — 首个公开版本
 
-For new installations, use [PCKB 0.4.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0) unless you specifically need an older version.
+除非需要回退或复现旧版本，新安装请使用 [PCKB 0.4.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0)。
 
-## License
+## 许可
 
-The PCKB application is not open source. Installation and use are governed by the [EULA](legal/PCKB-EULA.txt), which is also included with the download. Third-party notices are provided separately and do not reduce rights granted by third-party open-source licenses.
+PCKB 应用不是开源软件。安装与使用受 [EULA](legal/PCKB-EULA.txt) 约束，下载包内也会包含该文件。第三方声明单独提供，并且不会削弱第三方开源许可证授予的权利。
