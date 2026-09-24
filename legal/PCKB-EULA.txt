@@ -1,0 +1,120 @@
+PCKB PROPRIETARY BINARY LICENSE — 0.4.0 PUBLIC PREVIEW
+
+Effective date: the date on which the PCKB 0.4.0 Public Preview GitHub Release
+is first published by the rights holder.
+
+Downloading, installing, or using PCKB is subject to this License. PCKB is
+provided as a free Public Preview under active development. It is not an
+open-source product.
+
+1. Ownership and scope
+
+PCKB, including its first-party executable code, documentation, name, logo,
+mascot, icon, illustrations, and other first-party assets, is proprietary.
+Copyright © 2026 yuanjiawei. All rights reserved.
+
+An “Official Binary” is an unmodified PCKB binary package distributed by the
+rights holder through the official public binary release repository:
+https://github.com/yyttwo/personal-code-knowledge-base-releases
+
+Source code is not included. No ownership, source-code access right, or other
+right not expressly stated in this License is transferred by downloading,
+installing, or using PCKB. Users retain ownership of their own libraries and
+data.
+
+2. Binary-use license
+
+Subject to this License, the rights holder grants a no-fee, limited,
+non-exclusive, non-transferable, and non-sublicensable license to download an
+Official Binary, make copies reasonably required for installation or personal
+backup, install it on devices the recipient owns or controls, and use it for:
+
+- personal use;
+- internal use by commercial companies;
+- internal use by schools; and
+- internal use by enterprises and other organizations.
+
+This license does not authorize offering PCKB itself as a product or service
+to third parties.
+
+3. Distribution, copying, repackaging, resale, and modifications
+
+Recipients may share the official release or download-page link. Unless the
+rights holder gives prior written permission, recipients may not:
+
+- directly copy or transfer an installer or binary package to another person;
+- operate or supply a third-party binary mirror;
+- repackage, bundle, rename, or present PCKB as their own product;
+- sell, sublicense, rent, or charge for PCKB itself;
+- redistribute modified PCKB binaries or derivative first-party builds; or
+- imply that an unofficial copy is an official or endorsed release.
+
+Recipients should direct other users to the official release page. Rights
+granted independently by third-party open-source licenses are not restricted
+by this section.
+
+4. Reverse engineering and lawful exceptions
+
+Reverse engineering, decompilation, and disassembly of first-party PCKB code
+are prohibited except to the extent permitted or required by applicable law,
+including non-waivable interoperability or security-research rights. This
+restriction does not narrow rights independently granted for third-party
+components.
+
+5. Names and brand assets
+
+The PCKB name, logo, mascot, app icon, illustrations, and other first-party
+brand assets may not be reused to brand another product, impersonate an
+official release, or imply sponsorship without prior written permission.
+Legally permitted descriptive references are unaffected.
+
+6. Updates and future versions
+
+The rights holder may provide updates or later versions but does not promise a
+particular schedule, continued availability, compatibility, support period,
+or feature set. Later versions may be offered under different published terms.
+
+7. Warranty disclaimer
+
+To the maximum extent permitted by applicable law, PCKB is provided “as is”
+and “as available,” without warranties of any kind, whether express, implied,
+or statutory, including warranties of merchantability, fitness for a
+particular purpose, title, and non-infringement. The rights holder does not
+warrant that PCKB will be uninterrupted, error-free, secure, or suitable for a
+particular use. Rights and warranties that cannot lawfully be waived remain
+unaffected.
+
+8. Limitation of liability
+
+To the maximum extent permitted by applicable law, the rights holder will not
+be liable for indirect, incidental, special, consequential, exemplary, or
+punitive damages, or for loss of data, profits, revenue, business opportunity,
+or use, arising from or relating to PCKB or this License, regardless of the
+legal theory and even if advised of the possibility of such damages. Nothing
+in this License excludes or limits liability, remedies, or consumer rights
+that cannot lawfully be excluded or limited.
+
+9. Third-party software
+
+PCKB contains third-party open-source components. Those components remain
+licensed under their respective licenses. Nothing in this proprietary License
+replaces, narrows, conditions, or overrides rights granted by an applicable
+third-party license, including MIT, Apache-2.0, BSD, ISC, Zlib, and other
+licenses identified in the accompanying materials. Applicable notices and
+license texts are provided in THIRD-PARTY-NOTICES.txt and the
+OPEN-SOURCE-LICENSES directory.
+
+10. Termination
+
+License rights granted for first-party PCKB materials may terminate upon a
+material breach of this License, subject to applicable law. Upon termination,
+the recipient must stop using and delete unauthorized copies of first-party
+PCKB materials. Termination does not extinguish rights in user-owned data,
+non-waivable rights, or rights independently granted by third-party licenses.
+
+11. Applicable law
+
+This License operates only to the extent permitted by applicable law. It does
+not select an exclusive governing law, jurisdiction, court, or dispute forum.
+Mandatory local protections and non-waivable statutory rights remain
+unaffected.

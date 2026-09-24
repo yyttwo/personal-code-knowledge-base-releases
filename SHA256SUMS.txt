@@ -1,1 +1,1 @@
-6f072ac98ca90f226e8a57689a9a8d6d3f5c13a1654a1c161fe4123d44d7a47a  personal-code-knowledge-base-v0.3.0-macos-arm64.zip
+5eb94c958958ce96f10c4cb9f5ec91ca3716602de90004b9eafd11d17006a4fc  PCKB-0.4.0-Public-Preview-macOS-arm64.zip

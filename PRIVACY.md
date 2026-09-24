@@ -1,4 +1,4 @@
-# 个人代码资产库 v0.3.0 隐私说明
+# PCKB 0.4.0 Public Preview 隐私说明
 
 个人代码资产库采用 Local-first 设计。代码库、Project、学习记录、普通搜索索引、语义索引和备份保存在用户选择的本机位置。AI 功能默认关闭；用户可以选择完全本机的 Ollama，也可以主动配置 DeepSeek 或 Qwen API。
 
@@ -36,8 +36,11 @@ App 只围绕用户通过 macOS 系统选择器明确选择的位置工作：
 - 用户主动选择的单个导入文件；
 - 用户选择的备份保存位置；
 - 用户选择的恢复备份。
+- 用户为 App 背景明确选择的本机图片。
 
 App 不自动扫描整个 Home 目录，也不自动扫描项目文件夹。
+
+自定义 App 背景保存在本机，不会发送给 AI Provider。
 
 ## 单文件导入与 Sensitive Guardrail
 
@@ -51,6 +54,6 @@ App 会阻止明显的凭据文件名，并对普通代码中看起来像 Secret
 
 ## 权限与发布范围
 
-v0.3.0 不申请摄像头、麦克风、位置、联系人、日历或屏幕录制权限。文件访问由用户在系统选择器中的明确操作限定。
+0.4.0 Public Preview 不申请摄像头、麦克风、位置、联系人、日历或屏幕录制权限。文件访问由用户在系统选择器中的明确操作限定。
 
-v0.3.0 面向 Apple Silicon Mac 和 macOS 11.0 及以上版本，采用个人本地安装方式。正式下载由本仓库的 GitHub Release 页面提供；目前不提供 Mac App Store 版本、自动更新或 Intel Mac 兼容保证。
+0.4.0 Public Preview 面向 Apple Silicon Mac 和 macOS 11.0 及以上版本，采用个人本地安装方式。正式下载由本仓库的 GitHub Release 页面提供；目前不提供 Mac App Store 版本、自动更新或 Intel Mac 兼容保证。

@@ -1,0 +1,1846 @@
+PCKB THIRD-PARTY NOTICES — 0.4.0 PUBLIC PREVIEW
+Release: PCKB 0.4.0 Build 1 Public Preview
+Source commit: 6c2d1233d97711af2fc80d41aec455d88ba2c09a
+This file reuses the verified 0.3.0 runtime notice set and adds the audited 0.4.0 image-decoding dependency delta.
+
+objc2-family upstream notice
+----------------------------
+The distributed objc2-family components are block2 0.6.2, objc2 0.6.4,
+objc2-app-kit 0.3.2, objc2-encode 4.1.0, objc2-exception-helper 0.1.1,
+objc2-foundation 0.3.2, and objc2-web-kit 0.3.2. Their upstream-stated
+licenses and exact source references are recorded in their component entries
+below and in OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv.
+
+The shared upstream LICENSE.md states that these crates are generally derived
+from Apple SDKs, points users to the Xcode license, and records upstream
+uncertainty about redistribution implications for SDK-derived works. This
+notice does not assert either that redistribution has been legally confirmed
+or that redistribution is illegal.
+
+Component: ahash
+Version: 0.8.12
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/tkaitchuck/ahash
+Evidence: FINAL_LINK_MAP lines 103-103; final-link archive: libahash-dd938207c17a30ff.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: aho-corasick
+Version: 1.1.5
+Distribution: STATIC_LINKED_RUST
+License: Unlicense OR MIT
+Attribution: Copyright (c) 2015 Andrew Gallant
+Source: https://github.com/BurntSushi/aho-corasick
+Evidence: FINAL_LINK_MAP lines 321-332; final-link archive: libaho_corasick-a9ef8268b031a8ca.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: anyhow
+Version: 1.0.104
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/dtolnay/anyhow
+Evidence: FINAL_LINK_MAP lines 400-401; final-link archive: libanyhow-a57b5fa694a69bf7.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: atomic-waker
+Version: 1.1.2
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 OR MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/smol-rs/atomic-waker
+Evidence: FINAL_LINK_MAP lines 716-716; final-link archive: libatomic_waker-21f7a7173cd6d88c.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: aws-lc-rs
+Version: 1.18.1
+Distribution: STATIC_LINKED_RUST
+License: ISC AND (Apache-2.0 OR ISC)
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/aws/aws-lc-rs
+Evidence: FINAL_LINK_MAP lines 476-483; final-link archive: libaws_lc_rs-37ebe446d54c6312.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: aws-lc-sys
+Version: 0.45.0
+Distribution: STATIC_LINKED_RUST
+License: ISC AND (Apache-2.0 OR ISC) AND Apache-2.0 AND MIT AND BSD-3-Clause AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR ISC OR MIT-0)
+Attribution: Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+Source: https://github.com/aws/aws-lc-rs
+Evidence: FINAL_LINK_MAP lines 484-668; final-link archive: libaws_lc_sys-1903fbf8646c7a16.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: base64
+Version: 0.22.1
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/marshallpierce/rust-base64
+Evidence: FINAL_LINK_MAP lines 695-695; final-link archive: libbase64-9f4e0ee66218d2b0.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: bit-vec
+Version: 0.8.0
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 OR MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/contain-rs/bit-vec
+Evidence: FINAL_LINK_MAP lines 60-60; final-link archive: libbit_vec-1b4fedd92b10fe88.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: bitflags
+Version: 2.13.1
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/bitflags/bitflags
+Evidence: FINAL_LINK_MAP lines 684-684; final-link archive: libbitflags-63d4a72163214a0d.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: block2
+Version: 0.6.2
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: See OBJC2_UPSTREAM_LEGAL_RISK_GROUP; exact upstream LICENSE.md contains no separate named copyright line.
+Source: https://github.com/madsmtm/objc2/tree/b4167b582b2f75f9a1be75495c41b765344fd03c/crates/block2
+Evidence: FINAL_LINK_MAP lines 236-236; final-link archive: libblock2-4a5bdfe2135aa1e3.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: brotli-decompressor
+Version: 5.0.3
+Distribution: STATIC_LINKED_RUST
+License: BSD-3-Clause/MIT
+Attribution: Copyright (c) 2016 Dropbox, Inc.
+Source: https://github.com/dropbox/rust-brotli-decompressor
+Evidence: FINAL_LINK_MAP lines 289-291; final-link archive: libbrotli_decompressor-a7c7b836d8599fd8.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: bytecount
+Version: 0.6.9
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0/MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/llogiq/bytecount
+Evidence: FINAL_LINK_MAP lines 93-93; final-link archive: libbytecount-c520d0e279a482ac.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: bytes
+Version: 1.12.1
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2018 Carl Lerche
+Source: https://github.com/tokio-rs/bytes
+Evidence: FINAL_LINK_MAP lines 781-782; final-link archive: libbytes-efa7b537a61635fd.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: cfb
+Version: 0.7.3
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2017 Matthew D. Steele
+Source: https://github.com/mdsteele/rust-cfb
+Evidence: FINAL_LINK_MAP lines 284-288; final-link archive: libcfb-884b92847252728f.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: cookie
+Version: 0.18.2
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/SergioBenitez/cookie-rs
+Evidence: FINAL_LINK_MAP lines 257-259; final-link archive: libcookie-b8179d7d57cd0c26.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: core-foundation
+Version: 0.10.1
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/servo/core-foundation-rs
+Evidence: FINAL_LINK_MAP lines 449-449; final-link archive: libcore_foundation-4a55ed2a12dc338d.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: crc32fast
+Version: 1.5.1
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/srijs/rust-crc32fast
+Evidence: FINAL_LINK_MAP lines 212-212; final-link archive: libcrc32fast-1d56a10b541cf672.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: crossbeam-channel
+Version: 0.5.17
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/crossbeam-rs/crossbeam
+Evidence: FINAL_LINK_MAP lines 213-213; final-link archive: libcrossbeam_channel-f47a644fa89cbb41.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: crossbeam-utils
+Version: 0.8.23
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/crossbeam-rs/crossbeam
+Evidence: FINAL_LINK_MAP lines 214-214; final-link archive: libcrossbeam_utils-4e8b6b97033f0599.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: data-encoding
+Version: 2.11.1
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2015-2020 Julien Cretin
+Source: https://github.com/ia0/data-encoding
+Evidence: FINAL_LINK_MAP lines 62-62; final-link archive: libdata_encoding-954dae402e21455c.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: dirs
+Version: 6.0.0
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/soc/dirs-rs
+Evidence: FINAL_LINK_MAP lines 162-162; final-link archive: libdirs-729c370278e786cc.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: dirs-sys
+Version: 0.5.0
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/dirs-dev/dirs-sys-rs
+Evidence: FINAL_LINK_MAP lines 163-163; final-link archive: libdirs_sys-40f671e663718353.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: email_address
+Version: 0.2.9
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2019 Simon Johnston
+Source: https://github.com/johnstonskj/rust-email_address.git
+Evidence: FINAL_LINK_MAP lines 61-61; final-link archive: libemail_address-9a3680f4f51580f7.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: erased-serde
+Version: 0.4.10
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/dtolnay/erased-serde
+Evidence: FINAL_LINK_MAP lines 399-399; final-link archive: liberased_serde-586968f3489bbb7e.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: errno
+Version: 0.3.14
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/lambda-fairy/rust-errno
+Evidence: FINAL_LINK_MAP lines 113-113; final-link archive: liberrno-e0c3dd3b55d951dc.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: fancy-regex
+Version: 0.19.0
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright 2015 The Fancy Regex Authors.
+Source: https://github.com/fancy-regex/fancy-regex
+Evidence: FINAL_LINK_MAP lines 44-59; final-link archive: libfancy_regex-0f1d9a7a3c8ba503.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: fastrand
+Version: 2.5.0
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 OR MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/smol-rs/fastrand
+Evidence: FINAL_LINK_MAP lines 107-107; final-link archive: libfastrand-9f5c685ab9d38250.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: fdeflate
+Version: 0.3.7
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/image-rs/fdeflate
+Evidence: FINAL_LINK_MAP lines 209-210; final-link archive: libfdeflate-746757cc653fc15c.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: flate2
+Version: 1.1.10
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rust-lang/flate2-rs
+Evidence: FINAL_LINK_MAP lines 205-205; final-link archive: libflate2-3a7fa447f4abcdee.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: fluent-uri
+Version: 0.4.1
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2024 Scallop Ye
+Source: https://github.com/yescallop/fluent-uri-rs
+Evidence: FINAL_LINK_MAP lines 83-86; final-link archive: libfluent_uri-71140a5edae837f7.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: foldhash
+Version: 0.2.0
+Distribution: STATIC_LINKED_RUST
+License: Zlib
+Attribution: Copyright (c) 2024 Orson Peters
+Source: https://github.com/orlp/foldhash
+Evidence: FINAL_LINK_MAP lines 366-366; final-link archive: libfoldhash-a0edb1b1707a6efc.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: form_urlencoded
+Version: 1.2.2
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/servo/rust-url
+Evidence: FINAL_LINK_MAP lines 771-771; final-link archive: libform_urlencoded-4c0b77a39f5ed6cb.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: futures-channel
+Version: 0.3.34
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rust-lang/futures-rs
+Evidence: FINAL_LINK_MAP lines 717-717; final-link archive: libfutures_channel-b64ae4177a6c8b9d.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: futures-core
+Version: 0.3.34
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rust-lang/futures-rs
+Evidence: FINAL_LINK_MAP lines 783-783; final-link archive: libfutures_core-6d5cc4864db51e31.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: generic-array
+Version: 0.14.7
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2015 Bartłomiej Kamiński
+Source: https://github.com/fizyk20/generic-array.git
+Evidence: FINAL_LINK_MAP lines 405-405; final-link archive: libgeneric_array-8d0ca9fa07ae29fa.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: getrandom
+Version: 0.3.4
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rust-random/getrandom
+Evidence: FINAL_LINK_MAP lines 141-141; final-link archive: libgetrandom-e357f9e13a35d0ba.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: getrandom
+Version: 0.4.3
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rust-random/getrandom
+Evidence: FINAL_LINK_MAP lines 420-420; final-link archive: libgetrandom-ddd402d9362e0e5c.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: glob
+Version: 0.3.4
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rust-lang/glob
+Evidence: FINAL_LINK_MAP lines 349-351; final-link archive: libglob-85885ff1f93d227d.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: http
+Version: 1.5.0
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/hyperium/http
+Evidence: FINAL_LINK_MAP lines 775-779; final-link archive: libhttp-ce715baa81ea12ad.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: httparse
+Version: 1.10.1
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/seanmonstar/httparse
+Evidence: FINAL_LINK_MAP lines 715-715; final-link archive: libhttparse-86a7b437de33cb32.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: hyper
+Version: 1.11.1
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2014-2026 Sean McArthur
+Source: https://github.com/hyperium/hyper
+Evidence: FINAL_LINK_MAP lines 705-713; final-link archive: libhyper-cb2729e90bba7a6b.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: hyper-rustls
+Version: 0.27.9
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 OR ISC OR MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rustls/hyper-rustls
+Evidence: FINAL_LINK_MAP lines 450-450; final-link archive: libhyper_rustls-0473afcc76ba38c3.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: hyper-util
+Version: 0.1.20
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2023-2025 Sean McArthur
+Source: https://github.com/hyperium/hyper-util
+Evidence: FINAL_LINK_MAP lines 686-694; final-link archive: libhyper_util-6f0948ecdebc1175.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: icu_collections
+Version: 2.3.0
+Distribution: STATIC_LINKED_RUST
+License: Unicode-3.0
+Attribution: COPYRIGHT AND PERMISSION NOTICE
+Source: https://github.com/unicode-org/icu4x
+Evidence: FINAL_LINK_MAP lines 755-756; final-link archive: libicu_collections-9852e85baeba2d06.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: icu_locale_core
+Version: 2.3.0
+Distribution: STATIC_LINKED_RUST
+License: Unicode-3.0
+Attribution: COPYRIGHT AND PERMISSION NOTICE
+Source: https://github.com/unicode-org/icu4x
+Evidence: FINAL_LINK_MAP lines 761-768; final-link archive: libicu_locale_core-50c655fd2654a620.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: icu_normalizer
+Version: 2.3.0
+Distribution: STATIC_LINKED_RUST
+License: Unicode-3.0
+Attribution: COPYRIGHT AND PERMISSION NOTICE
+Source: https://github.com/unicode-org/icu4x
+Evidence: FINAL_LINK_MAP lines 752-754; final-link archive: libicu_normalizer-7a0c6366951f6a38.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: icu_provider
+Version: 2.3.1
+Distribution: STATIC_LINKED_RUST
+License: Unicode-3.0
+Attribution: COPYRIGHT AND PERMISSION NOTICE
+Source: https://github.com/unicode-org/icu4x
+Evidence: FINAL_LINK_MAP lines 759-760; final-link archive: libicu_provider-d016907aace3e24c.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: idna
+Version: 1.1.0
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/servo/rust-url/
+Evidence: FINAL_LINK_MAP lines 746-751; final-link archive: libidna-5a962159a1cf4a10.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: infer
+Version: 0.19.0
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2019 Bojan
+Source: https://github.com/bojand/infer
+Evidence: FINAL_LINK_MAP lines 278-283; final-link archive: libinfer-386e797d3b5301d5.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: ipnet
+Version: 2.12.2
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/krisprice/ipnet
+Evidence: FINAL_LINK_MAP lines 696-699; final-link archive: libipnet-778287a1234dbcc6.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: itoa
+Version: 1.0.18
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/dtolnay/itoa
+Evidence: FINAL_LINK_MAP lines 780-780; final-link archive: libitoa-af1233ae61f92b19.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: json-patch
+Version: 3.0.1
+Distribution: STATIC_LINKED_RUST
+License: MIT/Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/idubrov/json-patch
+Evidence: FINAL_LINK_MAP lines 367-370; final-link archive: libjson_patch-dcfa56dfb6f83630.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: jsonptr
+Version: 0.6.3
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/chanced/jsonptr
+Evidence: FINAL_LINK_MAP lines 371-374; final-link archive: libjsonptr-ba5cdb585694d421.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: jsonschema
+Version: 0.54.0
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2020-2026 Dmitry Dygalo
+Source: https://github.com/Stranger6667/jsonschema
+Evidence: FINAL_LINK_MAP lines 24-39; final-link archive: libjsonschema-39c75c01d2f0a1a8.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: jsonschema-regex
+Version: 0.54.0
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2020-2026 Dmitry Dygalo
+Source: https://github.com/Stranger6667/jsonschema
+Evidence: FINAL_LINK_MAP lines 40-43; final-link archive: libjsonschema_regex-41b0ef3d794f89b5.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: jsonschema-value
+Version: 0.54.0
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2020-2026 Dmitry Dygalo
+Source: https://github.com/Stranger6667/jsonschema
+Evidence: FINAL_LINK_MAP lines 87-92; final-link archive: libjsonschema_value-9533a7b707e70e5f.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: libsqlite3-sys
+Version: 0.38.2
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2014 The rusqlite developers
+Source: https://github.com/rusqlite/rusqlite
+Evidence: FINAL_LINK_MAP lines 417-418; final-link archive: liblibsqlite3_sys-d093e3bb430594d9.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: log
+Version: 0.4.34
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rust-lang/log
+Evidence: FINAL_LINK_MAP lines 739-739; final-link archive: liblog-7709a6bfdf76d151.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: memchr
+Version: 2.8.3
+Distribution: STATIC_LINKED_RUST
+License: Unlicense OR MIT
+Attribution: Copyright (c) 2015 Andrew Gallant
+Source: https://github.com/BurntSushi/memchr
+Evidence: FINAL_LINK_MAP lines 740-740; final-link archive: libmemchr-e8295abdab3f0d17.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: mime
+Version: 0.3.17
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/hyperium/mime
+Evidence: FINAL_LINK_MAP lines 140-140; final-link archive: libmime-9d1d8c43fb6fcba2.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: miniz_oxide
+Version: 0.9.1
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Zlib OR Apache-2.0
+Attribution: Copyright 2013-2014 RAD Game Tools and Valve Software
+Source: https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide
+Evidence: FINAL_LINK_MAP lines 206-208; final-link archive: libminiz_oxide-7fb7ca927a1eac05.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: mio
+Version: 1.2.3
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2014 Carl Lerche and other MIO contributors
+Source: https://github.com/tokio-rs/mio
+Evidence: FINAL_LINK_MAP lines 736-738; final-link archive: libmio-1edd26058a2cda4f.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: muda
+Version: 0.19.3
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 OR MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/tauri-apps/muda
+Evidence: FINAL_LINK_MAP lines 180-195; final-link archive: libmuda-0da08e370c8deeef.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: num-bigint
+Version: 0.4.8
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rust-num/num-bigint
+Evidence: FINAL_LINK_MAP lines 94-101; final-link archive: libnum_bigint-6fef6f120dfa7c41.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: num-integer
+Version: 0.1.47
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rust-num/num-integer
+Evidence: FINAL_LINK_MAP lines 102-102; final-link archive: libnum_integer-bbdd35727e0c31c6.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: objc2
+Version: 0.6.4
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: See OBJC2_UPSTREAM_LEGAL_RISK_GROUP; exact upstream LICENSE.md contains no separate named copyright line.
+Source: https://github.com/madsmtm/objc2/tree/8852b424193ca41602281b3d7540d7c8ed51e49a/crates/objc2
+Evidence: FINAL_LINK_MAP lines 251-253; final-link archive: libobjc2-4f6518715dbe1deb.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: objc2-app-kit
+Version: 0.3.2
+Distribution: STATIC_LINKED_RUST
+License: Zlib OR Apache-2.0 OR MIT
+Attribution: See OBJC2_UPSTREAM_LEGAL_RISK_GROUP; exact upstream LICENSE.md contains no separate named copyright line.
+Source: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/framework-crates/objc2-app-kit
+Evidence: FINAL_LINK_MAP lines 221-235; final-link archive: libobjc2_app_kit-9a21d14d03a56ab6.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: objc2-encode
+Version: 4.1.0
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: See OBJC2_UPSTREAM_LEGAL_RISK_GROUP; exact upstream LICENSE.md contains no separate named copyright line.
+Source: https://github.com/madsmtm/objc2/tree/8d214f5477365ffcbcbb7de058c86ed9a518efb7/crates/objc2-encode
+Evidence: FINAL_LINK_MAP lines 255-256; final-link archive: libobjc2_encode-e7e27ef77c8d547f.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: objc2-exception-helper
+Version: 0.1.1
+Distribution: STATIC_LINKED_RUST
+License: Zlib OR Apache-2.0 OR MIT
+Attribution: See OBJC2_UPSTREAM_LEGAL_RISK_GROUP; exact upstream LICENSE.md contains no separate named copyright line.
+Source: https://github.com/madsmtm/objc2/tree/8d214f5477365ffcbcbb7de058c86ed9a518efb7/crates/objc2-exception-helper
+Evidence: FINAL_LINK_MAP lines 254-254; final-link archive: libobjc2_exception_helper-d74aa581724ce3b7.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: objc2-foundation
+Version: 0.3.2
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: See OBJC2_UPSTREAM_LEGAL_RISK_GROUP; exact upstream LICENSE.md contains no separate named copyright line.
+Source: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/framework-crates/objc2-foundation
+Evidence: FINAL_LINK_MAP lines 237-250; final-link archive: libobjc2_foundation-3910372093eb6eee.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: objc2-web-kit
+Version: 0.3.2
+Distribution: STATIC_LINKED_RUST
+License: Zlib OR Apache-2.0 OR MIT
+Attribution: See OBJC2_UPSTREAM_LEGAL_RISK_GROUP; exact upstream LICENSE.md contains no separate named copyright line.
+Source: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/framework-crates/objc2-web-kit
+Evidence: FINAL_LINK_MAP lines 217-220; final-link archive: libobjc2_web_kit-85efc0f744f892c5.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: once_cell
+Version: 1.21.4
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/matklad/once_cell
+Evidence: FINAL_LINK_MAP lines 704-704; final-link archive: libonce_cell-39fce9a01b155800.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: parking_lot
+Version: 0.12.5
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/Amanieu/parking_lot
+Evidence: FINAL_LINK_MAP lines 79-81; final-link archive: libparking_lot-f85e8edb4b21887d.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: parking_lot_core
+Version: 0.9.12
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/Amanieu/parking_lot
+Evidence: FINAL_LINK_MAP lines 82-82; final-link archive: libparking_lot_core-651bd85389405314.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: percent-encoding
+Version: 2.3.2
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/servo/rust-url/
+Evidence: FINAL_LINK_MAP lines 772-772; final-link archive: libpercent_encoding-ae278fda934a3283.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: plist
+Version: 1.10.0
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2015 Edward Barnard
+Source: https://github.com/ebarnard/rust-plist/
+Evidence: FINAL_LINK_MAP lines 355-358; final-link archive: libplist-50d11ec43d81497b.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: png
+Version: 0.18.1
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/image-rs/image-png
+Evidence: FINAL_LINK_MAP lines 196-204; final-link archive: libpng-3da6a6eb65a0ee4d.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: potential_utf
+Version: 0.1.6
+Distribution: STATIC_LINKED_RUST
+License: Unicode-3.0
+Attribution: COPYRIGHT AND PERMISSION NOTICE
+Source: https://github.com/unicode-org/icu4x
+Evidence: FINAL_LINK_MAP lines 758-758; final-link archive: libpotential_utf-06530a42b6538b3a.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: quick-xml
+Version: 0.41.0
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2016 Johann Tuffe
+Source: https://github.com/tafia/quick-xml
+Evidence: FINAL_LINK_MAP lines 359-365; final-link archive: libquick_xml-b57416dc45fd46b3.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: raw-window-handle
+Version: 0.6.2
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0 OR Zlib
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rust-windowing/raw-window-handle
+Evidence: FINAL_LINK_MAP lines 261-261; final-link archive: libraw_window_handle-7ca64d15439c8b75.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: referencing
+Version: 0.54.0
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2020-2026 Dmitry Dygalo
+Source: https://github.com/Stranger6667/jsonschema
+Evidence: FINAL_LINK_MAP lines 63-78; final-link archive: libreferencing-f3473b64b0f4e247.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: regex
+Version: 1.13.1
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rust-lang/regex
+Evidence: FINAL_LINK_MAP lines 301-304; final-link archive: libregex-b5b480d73b83eebe.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: regex-automata
+Version: 0.4.18
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rust-lang/regex
+Evidence: FINAL_LINK_MAP lines 305-320; final-link archive: libregex_automata-aaf9baf4a86b4407.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: regex-syntax
+Version: 0.8.11
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rust-lang/regex
+Evidence: FINAL_LINK_MAP lines 333-348; final-link archive: libregex_syntax-84b0ee2851f8f00b.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: reqwest
+Version: 0.13.4
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/seanmonstar/reqwest
+Evidence: FINAL_LINK_MAP lines 421-436; final-link archive: libreqwest-8b8dfb26bc606c6b.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: rfd
+Version: 0.16.0
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2022 Bartłomiej Maryńczak
+Source: https://github.com/PolyMeilex/rfd
+Evidence: FINAL_LINK_MAP lines 115-122; final-link archive: librfd-2630045d5be5c392.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: rusqlite
+Version: 0.40.2
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2014 The rusqlite developers
+Source: https://github.com/rusqlite/rusqlite
+Evidence: FINAL_LINK_MAP lines 411-416; final-link archive: librusqlite-f9ab39a1ca8df64c.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: rustix
+Version: 1.1.4
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT
+Attribution: Copyrights in the `rustix` project are retained by their contributors.
+Source: https://github.com/bytecodealliance/rustix
+Evidence: FINAL_LINK_MAP lines 108-112; final-link archive: librustix-50905acf115ef0b9.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: rustls
+Version: 0.23.45
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 OR ISC OR MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rustls/rustls
+Evidence: FINAL_LINK_MAP lines 451-466; final-link archive: librustls-a2776b80b369a1c5.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: rustls-pki-types
+Version: 1.15.1
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rustls/pki-types
+Evidence: FINAL_LINK_MAP lines 669-670; final-link archive: librustls_pki_types-d8b79a902933c64b.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: rustls-platform-verifier
+Version: 0.7.0
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rustls/rustls-platform-verifier
+Evidence: FINAL_LINK_MAP lines 437-437; final-link archive: librustls_platform_verifier-b2767f12ebee351a.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: rustls-webpki
+Version: 0.103.15
+Distribution: STATIC_LINKED_RUST
+License: ISC
+Attribution: Copyright 2015 Brian Smith.
+Source: https://github.com/rustls/webpki
+Evidence: FINAL_LINK_MAP lines 467-474; final-link archive: libwebpki-8c577b282d578c5d.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: same-file
+Version: 1.0.6
+Distribution: STATIC_LINKED_RUST
+License: Unlicense/MIT
+Attribution: Copyright (c) 2017 Andrew Gallant
+Source: https://github.com/BurntSushi/same-file
+Evidence: FINAL_LINK_MAP lines 354-354; final-link archive: libsame_file-b9f3cf557e2c2944.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: security-framework
+Version: 3.7.0
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/kornelski/rust-security-framework
+Evidence: FINAL_LINK_MAP lines 438-447; final-link archive: libsecurity_framework-8df8cece4c2bcfe4.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: security-framework-sys
+Version: 2.17.0
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/kornelski/rust-security-framework
+Evidence: FINAL_LINK_MAP lines 448-448; final-link archive: libsecurity_framework_sys-49b0f66bfe087e12.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: semver
+Version: 1.0.28
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/dtolnay/semver
+Evidence: FINAL_LINK_MAP lines 402-403; final-link archive: libsemver-3259b930e8a3c2c5.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: serde
+Version: 1.0.229
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/serde-rs/serde
+Evidence: FINAL_LINK_MAP lines 773-773; final-link archive: libserde-0c683f525b452eda.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: serde_core
+Version: 1.0.229
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/serde-rs/serde
+Evidence: FINAL_LINK_MAP lines 774-774; final-link archive: libserde_core-7ff670281a9f1355.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: serde_json
+Version: 1.0.151
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/serde-rs/json
+Evidence: FINAL_LINK_MAP lines 671-681; final-link archive: libserde_json-3e0e8be1df58a0a4.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: serde-untagged
+Version: 0.1.9
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/dtolnay/serde-untagged
+Evidence: FINAL_LINK_MAP lines 398-398; final-link archive: libserde_untagged-edecba586c7ec209.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: serialize-to-javascript
+Version: 0.1.2
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/chippers/serialize-to-javascript
+Evidence: FINAL_LINK_MAP lines 260-260; final-link archive: libserialize_to_javascript-4c492daa02be503e.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: sha2
+Version: 0.10.9
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/RustCrypto/hashes
+Evidence: FINAL_LINK_MAP lines 404-404; final-link archive: libsha2-ed0f1ed61bfa8fc1.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: simd-adler32
+Version: 0.3.10
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) [2021] [Marvin Countryman]
+Source: https://github.com/mcountryman/simd-adler32
+Evidence: FINAL_LINK_MAP lines 211-211; final-link archive: libsimd_adler32-63f8890cc275f071.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: socket2
+Version: 0.6.5
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/rust-lang/socket2
+Evidence: FINAL_LINK_MAP lines 734-735; final-link archive: libsocket2-58131690f0bb58c7.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: tao
+Version: 0.35.3
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/tauri-apps/tao
+Evidence: FINAL_LINK_MAP lines 164-179; final-link archive: libtao-9f895f7d051041c5.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: tauri
+Version: 2.11.5
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 OR MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/tauri-apps/tauri
+Evidence: FINAL_LINK_MAP lines 124-139; final-link archive: libtauri-ab1fb4dbba0c79bc.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: tauri-plugin-dialog
+Version: 2.7.3
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 OR MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/tauri-apps/plugins-workspace
+Evidence: FINAL_LINK_MAP lines 114-114; final-link archive: libtauri_plugin_dialog-fa2f85c141d25aed.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: tauri-plugin-fs
+Version: 2.5.2
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 OR MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/tauri-apps/plugins-workspace
+Evidence: FINAL_LINK_MAP lines 123-123; final-link archive: libtauri_plugin_fs-329b45f6e458b384.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: tauri-runtime
+Version: 2.11.3
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 OR MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/tauri-apps/tauri
+Evidence: FINAL_LINK_MAP lines 216-216; final-link archive: libtauri_runtime-7051ec10c03eedb7.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: tauri-runtime-wry
+Version: 2.11.4
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 OR MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/tauri-apps/tauri
+Evidence: FINAL_LINK_MAP lines 142-145; final-link archive: libtauri_runtime_wry-7ce11be30b1c698b.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: tauri-utils
+Version: 2.9.3
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 OR MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/tauri-apps/tauri
+Evidence: FINAL_LINK_MAP lines 262-277; final-link archive: libtauri_utils-549d23d226256c6d.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: tempfile
+Version: 3.27.0
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/Stebalien/tempfile
+Evidence: FINAL_LINK_MAP lines 104-106; final-link archive: libtempfile-b5b2a4dff803ed22.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: time
+Version: 0.3.55
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/time-rs/time
+Evidence: FINAL_LINK_MAP lines 406-410; final-link archive: libtime-8df5f5df4e3a0c60.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: tokio
+Version: 1.53.1
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) Tokio Contributors
+Source: https://github.com/tokio-rs/tokio
+Evidence: FINAL_LINK_MAP lines 718-733; final-link archive: libtokio-a3adca1b33c0c24b.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: toml
+Version: 1.1.5+spec-1.1.0
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/toml-rs/toml
+Evidence: FINAL_LINK_MAP lines 375-390; final-link archive: libtoml-db75b49c34e6082f.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: toml_datetime
+Version: 1.1.1+spec-1.1.0
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/toml-rs/toml
+Evidence: FINAL_LINK_MAP lines 397-397; final-link archive: libtoml_datetime-14dc6e9d470ad6ab.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: toml_parser
+Version: 1.1.3+spec-1.1.0
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/toml-rs/toml
+Evidence: FINAL_LINK_MAP lines 392-395; final-link archive: libtoml_parser-e888e16ec07d98a8.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: toml_writer
+Version: 1.1.2+spec-1.1.0
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/toml-rs/toml
+Evidence: FINAL_LINK_MAP lines 391-391; final-link archive: libtoml_writer-5cd9dff362c023c8.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: tower
+Version: 0.5.3
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2019 Tower Contributors
+Source: https://github.com/tower-rs/tower
+Evidence: FINAL_LINK_MAP lines 685-685; final-link archive: libtower-0435880d409d205e.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: tower-http
+Version: 0.6.11
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2019-2021 Tower Contributors
+Source: https://github.com/tower-rs/tower-http
+Evidence: FINAL_LINK_MAP lines 683-683; final-link archive: libtower_http-cd706214f863828b.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: tracing
+Version: 0.1.44
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2019 Tokio Contributors
+Source: https://github.com/tokio-rs/tracing
+Evidence: FINAL_LINK_MAP lines 700-700; final-link archive: libtracing-f9069c66ca9fa669.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: tracing-core
+Version: 0.1.36
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2019 Tokio Contributors
+Source: https://github.com/tokio-rs/tracing
+Evidence: FINAL_LINK_MAP lines 701-703; final-link archive: libtracing_core-2fcf5649d01b21bb.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: unic-char-range
+Version: 0.9.0
+Distribution: STATIC_LINKED_RUST
+License: MIT/Apache-2.0
+Attribution: Copyright 2011-2015 The Rust Project developers; Copyright 2013-2016 the rust-url developers; Copyright 2015-2017 The Servo Project developers; Copyright 2017 The UNIC Project developers
+Source: https://github.com/open-i18n/rust-unic/
+Evidence: FINAL_LINK_MAP lines 300-300; final-link archive: libunic_char_range-50e56e2ac85e5b62.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: unic-ucd-ident
+Version: 0.9.0
+Distribution: STATIC_LINKED_RUST
+License: MIT/Apache-2.0
+Attribution: Copyright 2011-2015 The Rust Project developers; Copyright 2013-2016 the rust-url developers; Copyright 2015-2017 The Servo Project developers; Copyright 2017 The UNIC Project developers
+Source: https://github.com/open-i18n/rust-unic/
+Evidence: FINAL_LINK_MAP lines 299-299; final-link archive: libunic_ucd_ident-e0dcba84be2f7b0e.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: untrusted
+Version: 0.9.0
+Distribution: STATIC_LINKED_RUST
+License: ISC
+Attribution: Copyright 2015-2016 Brian Smith
+Source: https://github.com/briansmith/untrusted
+Evidence: FINAL_LINK_MAP lines 475-475; final-link archive: libuntrusted-29a17f4410bc9ad4.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: url
+Version: 2.5.8
+Distribution: STATIC_LINKED_RUST
+License: MIT OR Apache-2.0
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/servo/rust-url
+Evidence: FINAL_LINK_MAP lines 741-745; final-link archive: liburl-c2377806df433857.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: urlpattern
+Version: 0.3.0
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2021 the Deno authors
+Source: https://github.com/denoland/rust-urlpattern
+Evidence: FINAL_LINK_MAP lines 292-298; final-link archive: liburlpattern-9a57a73789c0bcb8.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: utf8_iter
+Version: 1.0.4
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 OR MIT
+Attribution: Copyright Mozilla Foundation
+Source: https://github.com/hsivonen/utf8_iter
+Evidence: FINAL_LINK_MAP lines 757-757; final-link archive: libutf8_iter-44621a7db0ca8264.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: uuid
+Version: 1.26.0
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 OR MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/uuid-rs/uuid
+Evidence: FINAL_LINK_MAP lines 419-419; final-link archive: libuuid-a36174b3c4dc2cb4.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: walkdir
+Version: 2.5.0
+Distribution: STATIC_LINKED_RUST
+License: Unlicense/MIT
+Attribution: Copyright (c) 2015 Andrew Gallant
+Source: https://github.com/BurntSushi/walkdir
+Evidence: FINAL_LINK_MAP lines 352-353; final-link archive: libwalkdir-443ef99ca977db4a.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: want
+Version: 0.3.1
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Copyright (c) 2018-2019 Sean McArthur
+Source: https://github.com/seanmonstar/want
+Evidence: FINAL_LINK_MAP lines 714-714; final-link archive: libwant-18a2f30efeb4c498.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: window-vibrancy
+Version: 0.6.0
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 OR MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/tauri-apps/tauri-plugin-vibrancy
+Evidence: FINAL_LINK_MAP lines 215-215; final-link archive: libwindow_vibrancy-e0419abaeccf0307.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: winnow
+Version: 1.0.4
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Exact upstream LICENSE-MIT contains no named copyright line. The exact notice is preserved verbatim; no copyright holder is inferred.
+Source: https://github.com/winnow-rs/winnow/tree/v1.0.4 (peeled commit 7539ec0fc27144bfdcf9a68b0dbbec48bd0d5bae)
+Evidence: FINAL_LINK_MAP lines 396-396; final-link archive: libwinnow-f9f98968a91c13e5.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: wry
+Version: 0.55.1
+Distribution: STATIC_LINKED_RUST
+License: Apache-2.0 OR MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: https://github.com/tauri-apps/wry
+Evidence: FINAL_LINK_MAP lines 146-161; final-link archive: libwry-72c847368639feae.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: yoke
+Version: 0.8.3
+Distribution: STATIC_LINKED_RUST
+License: Unicode-3.0
+Attribution: COPYRIGHT AND PERMISSION NOTICE
+Source: https://github.com/unicode-org/icu4x
+Evidence: FINAL_LINK_MAP lines 770-770; final-link archive: libyoke-3e41d2ca8151ae59.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: zerotrie
+Version: 0.2.5
+Distribution: STATIC_LINKED_RUST
+License: Unicode-3.0
+Attribution: COPYRIGHT AND PERMISSION NOTICE
+Source: https://github.com/unicode-org/icu4x
+Evidence: FINAL_LINK_MAP lines 769-769; final-link archive: libzerotrie-98ccfee7c79c81dd.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: zmij
+Version: 1.0.23
+Distribution: STATIC_LINKED_RUST
+License: MIT
+Attribution: Exact upstream LICENSE-MIT contains no named copyright line. Cargo metadata names David Tolnay as package author; this is recorded as authorship metadata, not recast as a copyright-holder claim.
+Source: https://github.com/dtolnay/zmij/tree/1.0.23 (peeled commit 7b7cc48b58028e8af7be87e94c0c1c8936f1a57c)
+Evidence: FINAL_LINK_MAP lines 682-682; final-link archive: libzmij-214c62d061a45acd.rlib
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: @tauri-apps/api
+Version: 2.11.0
+Distribution: BUNDLED_IN_FRONTEND
+License: Apache-2.0 OR MIT
+Attribution: Exact upstream license text is preserved verbatim; packaged evidence contains no separate named copyright line.
+Source: git+https://github.com/tauri-apps/tauri.git
+Evidence: FINAL_FRONTEND_BUNDLE_METADATA.json module IDs and byte-identical output proof
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: react
+Version: 19.2.8
+Distribution: BUNDLED_IN_FRONTEND
+License: MIT
+Attribution: Copyright (c) Meta Platforms, Inc. and affiliates.
+Source: https://github.com/react/react.git
+Evidence: FINAL_FRONTEND_BUNDLE_METADATA.json module IDs and byte-identical output proof
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: react-dom
+Version: 19.2.8
+Distribution: BUNDLED_IN_FRONTEND
+License: MIT
+Attribution: Copyright (c) Meta Platforms, Inc. and affiliates.
+Source: https://github.com/react/react.git
+Evidence: FINAL_FRONTEND_BUNDLE_METADATA.json module IDs and byte-identical output proof
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: scheduler
+Version: 0.27.0
+Distribution: BUNDLED_IN_FRONTEND
+License: MIT
+Attribution: Copyright (c) Meta Platforms, Inc. and affiliates.
+Source: https://github.com/facebook/react.git
+Evidence: FINAL_FRONTEND_BUNDLE_METADATA.json module IDs and byte-identical output proof
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: zod
+Version: 4.5.4
+Distribution: BUNDLED_IN_FRONTEND
+License: MIT
+Attribution: Copyright (c) 2025 Colin McDonnell
+Source: git+https://github.com/colinhacks/zod.git
+Evidence: FINAL_FRONTEND_BUNDLE_METADATA.json module IDs and byte-identical output proof
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: Rust standard library/runtime
+Version: 1.98.1 (48a229ceaefd4985c50990b14116b6d856af0985)
+Distribution: STATIC_LINKED_TOOLCHAIN_RUNTIME
+License: MIT OR Apache-2.0
+Attribution: The Rust Project Developers
+Source: https://github.com/rust-lang/rust/tree/48a229ceaefd4985c50990b14116b6d856af0985/library
+Evidence: FINAL_LINK_MAP lines 784-799; ten loaded Rust toolchain archive members
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: AWS-LC native code
+Version: aws-lc-sys 0.45.0 package payload
+Distribution: STATIC_LINKED_NATIVE
+License: Composite: Apache-2.0 OR ISC plus included third-party terms
+Attribution: Amazon.com, Google Inc., OpenSSL Project, Eric Young, mlkem-native/mldsa-native authors, fiat-crypto authors, Stephan Mueller, and file-level CC0 authors as enumerated in exact LICENSE
+Source: https://github.com/aws/aws-lc-rs/tree/aws-lc-sys-0.45.0
+Evidence: FINAL_LINK_MAP lines 484-668; 185 loaded native archive members
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+Component: SQLite amalgamation
+Version: 3.53.2 / source id d6e03d8c777cfa2d35e3b60d8ec3e0187f3e9f99d8e2ee9cac695fd6fcdf1a24
+Distribution: STATIC_LINKED_NATIVE
+License: Public Domain blessing
+Attribution: Public domain; no copyright asserted by SQLite authors
+Source: https://sqlite.org/
+Evidence: FINAL_LINK_MAP lines 417-418; libsqlite3-sys bundled sqlite3.o
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+
+================================================================================
+AWS-LC 0.45.0 EXACT COMPOSITE NOTICE
+================================================================================
+
+AWS Libcrypto (AWS-LC)
+
+AWS-LC is a fork of BoringSSL, which is itself a fork of OpenSSL.
+Content from these and other sources retains their original licensing,
+as described below. New files from AWS-LC are made available under the Apache-2.0 license OR the ISC
+license. These licenses are reproduced at the bottom of this file.
+
+```
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0 OR ISC
+```
+
+
+================================================================================
+BoringSSL
+================================================================================
+
+BoringSSL is a Google-maintained fork of OpenSSL. Historically, code
+authored by Google for BoringSSL was licensed under the ISC License.
+BoringSSL has since relicensed upstream to Apache License 2.0. Existing
+AWS-LC code originating from BoringSSL retains its ISC license, while
+newer code taken from BoringSSL is licensed under Apache License 2.0.
+
+```
+Copyright (c) 2014-2024 Google Inc.
+SPDX-License-Identifier: ISC
+```
+
+Additional individual contributions to BoringSSL-derived code are
+covered under the ISC license:
+
+  - Brian Smith (Copyright 2016)
+  - Robert Nagy (Copyright 2022)
+  - Arm Ltd (Copyright 2020)
+
+```
+Copyright (c) 2025-2026 Google Inc.
+SPDX-License-Identifier: Apache-2.0
+```
+
+================================================================================
+OpenSSL
+================================================================================
+
+Code derived from the OpenSSL project is licensed under the
+Apache License, Version 2.0.
+
+```
+Copyright (c) 1998-2011 The OpenSSL Project. All rights reserved.
+SPDX-License-Identifier: Apache-2.0
+```
+
+Some OpenSSL-derived files also carry the original SSLeay copyright:
+
+```
+Copyright (c) 1995-1998 Eric Young (eay@cryptsoft.com). All rights reserved.
+SPDX-License-Identifier: Apache-2.0
+```
+
+Portions of OpenSSL-derived code include contributions from:
+
+  - Sun Microsystems, Inc. (Copyright 2002)
+  - Nokia (Copyright 2005)
+  - Intel Corporation (Copyright 2012-2021)
+
+These contributions are covered under the Apache-2.0 license.
+
+================================================================================
+mlkem-native
+================================================================================
+
+Code from the mlkem-native project is licensed under Apache License 2.0 or MIT or ISC.
+
+```
+Copyright (c) The mlkem-native project authors.
+SPDX-License-Identifier: Apache-2.0 OR ISC OR MIT
+```
+
+================================================================================
+mldsa-native
+================================================================================
+
+Code from the mldsa-native project is licensed under Apache License 2.0 or MIT or ISC
+
+```
+Copyright (c) The mldsa-native project authors.
+SPDX-License-Identifier: Apache-2.0 OR ISC OR MIT
+```
+
+================================================================================
+Third-Party Libraries (compiled into libcrypto/libssl)
+================================================================================
+
+Fiat Cryptography
+-----------------
+Synthesizing Correct-by-Construction Code for Cryptographic Primitives.
+See third_party/fiat/LICENSE.
+
+```
+Copyright (c) 2015-2020 the fiat-crypto authors.
+SPDX-License-Identifier: MIT
+```
+
+s2n-bignum
+----------
+Integer arithmetic routines for cryptography.
+See third_party/s2n-bignum/s2n-bignum-imported/LICENSE.
+
+```
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0 OR ISC OR MIT-0
+```
+
+Note: ML-KEM/SHA3 code within s2n-bignum is licensed as
+Apache-2.0 OR ISC OR MIT (with attribution), sourced from the
+mlkem-native project.
+
+Jitter Entropy RNG
+-------------------
+CPU Jitter Random Number Generator Library.
+See third_party/jitterentropy/jitterentropy-library/LICENSE.
+
+The Jitter Entropy library is dual-licensed under a BSD-style license
+and the GNU General Public License Version 2. Amazon expressly elects
+to distribute the package under the 3-Clause BSD License and NOT under
+GNU General Public License Version 2.
+
+```
+Copyright (C) 2017 - 2025, Stephan Mueller <smueller@chronox.de>.
+SPDX-License-Identifier: BSD-3-Clause
+```
+
+Keccak / AES Reference Implementations
+---------------------------------------
+Public domain (CC0) contributions.
+https://creativecommons.org/public-domain/cc0
+
+Code from sources and by authors listed in comments on top of the respective files.
+
+
+================================================================================
+Third-Party Libraries (NOT compiled into libcrypto/libssl)
+================================================================================
+
+The following are used for testing and build tooling only. Distributing
+code linked against AWS-LC (libcrypto/libssl) does NOT trigger these
+license obligations.
+
+Google Test
+-----------
+See third_party/googletest/LICENSE.
+
+```
+Copyright 2008 Google Inc.
+SPDX-License-Identifier: BSD-3-Clause
+```
+
+Go Standard Library
+-------------------
+Code in ssl/test/runner/ is derived from the Go standard library.
+
+```
+Copyright (c) The Go Authors. All rights reserved.
+SPDX-License-Identifier: BSD-3-Clause
+```
+
+Wycheproof Test Vectors
+------------------------
+Project Wycheproof is a community managed repository of test vectors that can be used by cryptography library
+developers to test against known attacks, specification inconsistencies, and other various implementation bugs.
+
+See third_party/wycheproof_testvectors/LICENSE.
+
+```
+SPDX-License-Identifier: Apache-2.0
+```
+
+
+================================================================================
+Full License Texts
+================================================================================
+
+Apache License 2.0
+------------------
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+    1. Definitions.
+
+        "License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+
+        "Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+
+        "Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+
+        "You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.
+
+        "Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+
+        "Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+
+        "Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+
+        "Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+
+        "Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."
+
+        "Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.
+    2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
+    3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
+    4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+        (a) You must give any other recipients of the Work or Derivative Works a copy of this License; and
+        (b) You must cause any modified files to carry prominent notices stating that You changed the files; and
+        (c) You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
+        (d) If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+    You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
+    5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
+    6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
+    7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
+    8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.
+    9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.
+
+END OF TERMS AND CONDITIONS
+
+APPENDIX: How to apply the Apache License to your work.
+
+To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets "[]" replaced with your own identifying information. (Don't include the brackets!) The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same "printed page" as the copyright notice for easier identification within third-party archives.
+
+Copyright [yyyy] [name of copyright owner]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+ISC License
+-----------
+Permission to use, copy, modify, and/or distribute this software for
+any purpose with or without fee is hereby granted, provided that the
+above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL
+WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL
+DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+MIT License
+-----------
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+BSD 3-Clause License
+--------------------
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived
+   from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+MIT No Attribution (MIT-0)
+--------------------------
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Component: byteorder-lite
+Version: 0.1.0
+Distribution: STATIC_LINKED_RUST_DEPENDENCY_DELTA
+License: Unlicense OR MIT (MIT option selected for this distribution)
+Attribution: Copyright (c) 2015 Andrew Gallant
+Source: https://github.com/image-rs/byteorder-lite/tree/7d44da06a48fe10d7e23efd9a932d18a7a2def63
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: image
+Version: 0.25.10
+Distribution: STATIC_LINKED_RUST_DEPENDENCY_DELTA
+License: MIT OR Apache-2.0
+Attribution: The image-rs Developers; exact packaged license texts contain no separate named copyright line.
+Source: https://github.com/image-rs/image/tree/76e57184f22772dad1138e96954e57945406b15e
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: image-webp
+Version: 0.2.4
+Distribution: STATIC_LINKED_RUST_DEPENDENCY_DELTA
+License: MIT OR Apache-2.0
+Attribution: Exact packaged license texts contain no separate named copyright line.
+Source: https://github.com/image-rs/image-webp/tree/08b57d473c90148dd4b37a075df365afc3dfcc2b
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: moxcms
+Version: 0.8.1
+Distribution: STATIC_LINKED_RUST_DEPENDENCY_DELTA
+License: BSD-3-Clause OR Apache-2.0 (BSD-3-Clause option selected for this distribution)
+Attribution: Copyright (c) Radzivon Bartoshyk. All rights reserved.
+Source: https://github.com/awxkee/moxcms/tree/c4affa196727d17f21a7f6f148a558867decb470
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: pxfm
+Version: 0.1.30
+Distribution: STATIC_LINKED_RUST_DEPENDENCY_DELTA
+License: BSD-3-Clause OR Apache-2.0 (BSD-3-Clause option selected for this distribution)
+Attribution: Copyright (c) Radzivon Bartoshyk. All rights reserved.
+Source: https://github.com/awxkee/pxfm/tree/acf7acd00cfc845307eda7b7b2de19e42303de82
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: quick-error
+Version: 2.0.1
+Distribution: STATIC_LINKED_OR_MACRO_EXPANDED_RUST_DEPENDENCY_DELTA
+License: MIT OR Apache-2.0
+Attribution: Copyright (c) 2015 The quick-error Developers
+Source: https://github.com/tailhook/quick-error/tree/25ab982bb0c43130ae48485151f4a232eeab7d0c
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: zune-core
+Version: 0.5.3
+Distribution: STATIC_LINKED_RUST_DEPENDENCY_DELTA
+License: MIT OR Apache-2.0 OR Zlib
+Attribution: Copyright (c) zune-image developers
+Source: https://github.com/etemesi254/zune-image/tree/de5dfc800cfa063116eb695edb6ccd01cb96ea7a/crates/zune-core
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: zune-jpeg
+Version: 0.5.15
+Distribution: STATIC_LINKED_RUST_DEPENDENCY_DELTA
+License: MIT OR Apache-2.0 OR Zlib
+Attribution: Copyright (c) zune-image developers
+Source: https://github.com/etemesi254/zune-image/tree/31d81fed7551c8ccea456d9d8e2b1fd8bebb6995/crates/zune-jpeg
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
