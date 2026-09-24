@@ -10,17 +10,17 @@
 
 PCKB 仍在持续开发中。本仓库是公开二进制发布仓库，不包含产品核心源代码。
 
-![PCKB 代码库与代码详情](screenshots/public/01-main-library.png)
-
-以下均为使用虚构演示代码库拍摄的真实 PCKB 截图。本机私人路径已用不透明色块遮挡，其他产品内容未修改。
-
 ## 下载 macOS 版
 
-正式发布后，可从 [v0.4.0 Release](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0) 下载 `PCKB-0.4.0-Public-Preview-macOS-arm64.zip`。
+可从 [v0.4.0 Release](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0) 下载 PCKB 0.4.0 Public Preview。
 
 系统要求：Apple Silicon Mac（arm64），macOS 11.0 或更高版本。
 
 本 Public Preview 使用 ad hoc 签名，**没有** Apple Developer ID 签名，也**没有**经过 Apple 公证。安装前请核对公开的 SHA-256。首次启动被拦截时，请按 [INSTALL_MACOS.md](INSTALL_MACOS.md) 使用 macOS 正常图形界面操作。
+
+![PCKB 代码库与代码详情](screenshots/public/01-main-library.png)
+
+以下均为使用虚构演示代码库拍摄的真实 PCKB 截图。本机私人路径已用不透明色块遮挡，其他产品内容未修改。
 
 ## 功能
 

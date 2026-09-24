@@ -10,17 +10,17 @@ Turn the code you write, learn, and collect into a searchable personal knowledge
 
 PCKB is under active development. This repository is the public binary release repository; it does not contain the product's core source code.
 
-![PCKB Main Library and Code Detail](screenshots/public/01-main-library.png)
-
-The images below are real PCKB screenshots from a synthetic demo library. Personal local paths are covered with opaque rectangles; no product controls or other content were changed.
-
 ## Download for macOS
 
-Download `PCKB-0.4.0-Public-Preview-macOS-arm64.zip` from the [v0.4.0 release](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0) when it is published.
+Download PCKB 0.4.0 Public Preview from the [v0.4.0 release](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0).
 
 System requirements: Apple Silicon Mac (arm64), macOS 11.0 or later.
 
 This Public Preview is ad hoc signed. It is **not** signed with an Apple Developer ID and is **not** notarized by Apple. Verify the published SHA-256 before installing. See [INSTALL_MACOS.md](INSTALL_MACOS.md) for the normal macOS UI steps if first launch is blocked.
+
+![PCKB Main Library and Code Detail](screenshots/public/01-main-library.png)
+
+The images below are real PCKB screenshots from a synthetic demo library. Personal local paths are covered with opaque rectangles; no product controls or other content were changed.
 
 ## Features
 
