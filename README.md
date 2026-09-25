@@ -6,11 +6,11 @@
 
 [简体中文](README.md) | [English](README.en.md)
 
-**Public Preview · macOS Apple Silicon · 持续开发中 · 源码目前未开放**
+**简体中文 + English · Local-first · macOS Apple Silicon · Public Preview**
 
 ## 下载 macOS 版
 
-**新用户推荐下载：[PCKB 0.4.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0)。**
+**新用户推荐下载：[PCKB 0.5.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.5.0)。**
 
 请从该 Release 下载 macOS arm64 ZIP。
 
@@ -26,6 +26,7 @@ PCKB 仍在持续开发中。本仓库是公开二进制发布仓库，不包含
 
 ## 功能
 
+- 完整简体中文 / English 界面，可跟随系统或在 App 内即时切换
 - 个人代码资产库、Project、标签、常用、学习状态和验证记录
 - 全文搜索、结构化筛选和可选的语义搜索
 - 安全的单文件导入、可恢复废纸篓和本地备份/恢复
@@ -106,12 +107,13 @@ PCKB 以专有免费软件形式分发。下载、安装或使用 PCKB 均受 [P
 
 PCKB 采用持续迭代的预览版发布方式。旧版本保留用于回退与历史参考。
 
+- [v0.4.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0) — 首个公开预览版本
 - [v0.3.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.3.0) — AI 多 Provider 版本
 - [v0.2.2](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.2) — 问题反馈流程更新
 - [v0.2.1](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.1) — 先前公开版本
 - [v0.1.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.1.0) — 首个公开版本
 
-除非需要回退或复现旧版本，新安装请使用 [PCKB 0.4.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0)。
+除非需要回退或复现旧版本，新安装请使用 [PCKB 0.5.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.5.0)。
 
 ## 许可
 

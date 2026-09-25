@@ -6,13 +6,13 @@ Turn the code you write, learn, and collect into a searchable personal knowledge
 
 [简体中文](README.md) | [English](README.en.md)
 
-**Public Preview · macOS Apple Silicon · Active Development · Source code currently private**
+**Simplified Chinese + English · Local-first · macOS Apple Silicon · Public Preview**
 
 PCKB is under active development. This repository is the public binary release repository; it does not contain the product's core source code.
 
 ## Download for macOS
 
-**Recommended for new users:** [PCKB 0.4.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0).
+**Recommended for new users:** [PCKB 0.5.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.5.0).
 
 Download the macOS arm64 ZIP from that release.
 
@@ -26,6 +26,7 @@ The images below are real PCKB screenshots from a synthetic demo library. Person
 
 ## Features
 
+- Complete Simplified Chinese and English interfaces, with System language selection and instant in-app switching
 - Personal code library with Projects, tags, favorites, learning status, and validation history
 - Full-text and structured search
 - Optional semantic search and related-code discovery
@@ -107,12 +108,13 @@ PCKB is distributed as proprietary freeware under the [PCKB EULA](legal/PCKB-EUL
 
 PCKB follows an iterative preview release model. Older versions remain available for rollback and historical reference.
 
+- [v0.4.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0) — First public preview
 - [v0.3.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.3.0) — AI Multi-Provider release
 - [v0.2.2](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.2) — Feedback workflow update
 - [v0.2.1](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.1) — Previous public release
 - [v0.1.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.1.0) — Initial public release
 
-For new installations, use [PCKB 0.4.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0) unless you specifically need an older version.
+For new installations, use [PCKB 0.5.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.5.0) unless you specifically need an older version.
 
 ## License
 

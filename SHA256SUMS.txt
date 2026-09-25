@@ -1,1 +1,2 @@
+7256b2ee8bb5a967f146e3bd894a341c9d6513835b2505490f5c2ead486f1ca7  PCKB-0.5.0-Public-Preview-macOS-arm64.zip
 5eb94c958958ce96f10c4cb9f5ec91ca3716602de90004b9eafd11d17006a4fc  PCKB-0.4.0-Public-Preview-macOS-arm64.zip
