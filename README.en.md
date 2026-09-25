@@ -20,7 +20,7 @@ System requirements: Apple Silicon Mac (arm64), macOS 11.0 or later.
 
 This Public Preview is ad hoc signed. It is **not** signed with an Apple Developer ID and is **not** notarized by Apple. Verify the published SHA-256 before installing. See [INSTALL_MACOS.md](INSTALL_MACOS.md) for the normal macOS UI steps if first launch is blocked.
 
-![PCKB Main Library and Code Detail](screenshots/public/01-main-library.png)
+![PCKB Main Library and Code Detail](screenshots/public/en/01-main-library.png)
 
 The images below are real PCKB screenshots from a synthetic demo library. Personal local paths are covered with opaque rectangles; no product controls or other content were changed.
 
@@ -40,25 +40,31 @@ The images below are real PCKB screenshots from a synthetic demo library. Person
 
 | Create a code asset | Manage a project |
 | --- | --- |
-| ![New asset editor](screenshots/public/02-new-asset.png) | ![Project management](screenshots/public/03-project-management.png) |
+| ![New asset editor](screenshots/public/en/02-new-asset.png) | ![Project management](screenshots/public/en/10-project-management.png) |
 
 ### Learn and review
 
 | Learning overview | Asset learning cards |
 | --- | --- |
-| ![Learning Center overview](screenshots/public/04-learning-overview.png) | ![Learning Center asset cards](screenshots/public/05-learning-assets.png) |
+| ![Learning Center overview](screenshots/public/en/03-learning-overview.png) | ![Learning Center asset cards](screenshots/public/en/08-learning-assets.png) |
 
-### Configure and safeguard
+### Search, configure, and safeguard
 
-| AI and semantic search settings | Backup and restore |
+| General and AI settings | Semantic search settings |
 | --- | --- |
-| ![AI and semantic search settings](screenshots/public/06-ai-settings.png) | ![Local backup and restore settings](screenshots/public/07-backup-restore.png) |
+| ![General and AI settings](screenshots/public/en/05-general-settings.png) | ![Semantic search settings](screenshots/public/en/06-semantic-search-settings.png) |
+
+| Trash | Feedback and privacy guidance |
+| --- | --- |
+| ![Recoverable Trash](screenshots/public/en/04-trash.png) | ![Feedback and privacy guidance](screenshots/public/en/11-feedback.png) |
+
+### Optional AI Chat
+
+![AI Chat](screenshots/public/en/09-ai-chat.png)
 
 ### Make it yours
 
-![Local App background settings](screenshots/public/08-app-background.png)
-
-The current demo has no generation model selected, so this preview does not include an AI Chat screenshot. AI Chat remains an available feature.
+![Local App background settings](screenshots/public/en/07-app-background.png)
 
 ## AI options
 
